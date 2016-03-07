@@ -1,0 +1,30 @@
+
+body {background: #ccc;
+margin-bottom: 10px;
+}
+.wrapper {background: #fff; width: 600px; margin: 10px auto; box-shadow: 0 0 10px #777;}
+h1{
+text-align: center;
+}
+
+a{
+  text-decoration: underline;
+  color: blue;
+}
+div{
+margin:20px 10px 20px 10px;
+padding: 10px;
+}
+p, ul{
+font-size: 18px;
+margin-left: 100px;
+padding: 10px;
+}
+
+hr {
+border: none;
+color: black;
+height: 2px;
+}
+hr { color: black; width:90%; margin:1em auto; border:none; height:2px; background:#ccc
+}
