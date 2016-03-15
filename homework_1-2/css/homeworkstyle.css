@@ -1,0 +1,43 @@
+
+body {
+  background: #efefef;
+  margin-bottom: 40px;
+}
+
+.wrapper {
+  margin: 10px auto;
+  padding: 10px;
+  background: #fff;
+  width: 600px;
+  box-shadow: 0 0 4px
+
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  margin-left: 160px;
+}
+
+a {
+  text-decoration: underline;
+  color: blue;
+}
+
+p, ul {
+  margin-left: 100px;
+  padding: 8px;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+hr {
+  margin:1px auto;
+  color: black;
+  width:90%;
+  border:none;
+  height:1px;
+  background:black;
+}
