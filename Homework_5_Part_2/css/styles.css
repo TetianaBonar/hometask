@@ -1,0 +1,33 @@
+table {
+  margin: 25px;
+border-collapse: collapse;
+width: 500px;
+height: 543px;
+}
+
+tr, td {
+  border: 9px solid #101212;
+  text-align: center;
+}
+
+.cell1 {
+  background-color: #ffffff;
+  }
+
+.cell6, .cell13, .cell43 {
+  background-image: url(../img/yellow.gif);
+  background-repeat: repeat;
+}
+.cell9 {
+  background-image: url(../img/orange.gif);
+  background-repeat: repeat;
+}
+
+.cell37, .cell38, .cell44, .cell45, .cell53 {
+  background-image: url(../img/black.gif);
+}
+
+.cell48 {
+  background-image: url(../img/blue.gif);
+  background-repeat: repeat;
+}
