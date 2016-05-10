@@ -140,23 +140,23 @@ h1 {
    padding-left: 125px;
    height: 34px;
    background: #5e5e5e; /* Old browsers */
-background: -moz-linear-gradient(top,  #5e5e5e 0%, #4d5663 0%, #2d3236 24%, #0d0e10 64%, #020202 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #5e5e5e 0%,#4d5663 0%,#2d3236 24%,#0d0e10 64%,#020202 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #5e5e5e 0%,#4d5663 0%,#2d3236 24%,#0d0e10 64%,#020202 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', endColorstr='#020202',GradientType=0 ); /* IE6-9 */
+   background: -moz-linear-gradient(top,  #5e5e5e 0%, #4d5663 0%, #2d3236 24%, #0d0e10 64%, #020202 100%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(top,  #5e5e5e 0%,#4d5663 0%,#2d3236 24%,#0d0e10 64%,#020202 100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(to bottom,  #5e5e5e 0%,#4d5663 0%,#2d3236 24%,#0d0e10 64%,#020202 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', endColorstr='#020202',GradientType=0 ); /* IE6-9 */
    border: 1px solid black;
    border-radius: 3px;
    box-shadow: 1px 2px 5px grey;
  }
 
 
-.sidebar nav li {
+.sidebar ul li {
   margin-left: 5px;
   float: left;
   list-style: none;
 }
 
- .sidebar nav a {
+ .sidebar ul a {
    padding: 0 15px 2px 15px;
    display: block;
    color: #b1bcc0;
@@ -179,14 +179,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', end
    color: #b1bcc0;
  }
 
-nav a:hover {
+.sidebar ul a:hover {
   color: white;
   background: #5e5e5e; /* Old browsers */
-background: -moz-linear-gradient(top,  #5e5e5e 0%, #25617b 0%, #185476 0%, #185476 12%, #154b6d 46%, #103d61 72%, #0c3357 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #5e5e5e 0%,#25617b 0%,#185476 0%,#185476 12%,#154b6d 46%,#103d61 72%,#0c3357 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #5e5e5e 0%,#25617b 0%,#185476 0%,#185476 12%,#154b6d 46%,#103d61 72%,#0c3357 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', endColorstr='#0c3357',GradientType=0 ); /* IE6-9 */
-border-radius: 15px;
+  background: -moz-linear-gradient(top,  #5e5e5e 0%, #25617b 0%, #185476 0%, #185476 12%, #154b6d 46%, #103d61 72%, #0c3357 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #5e5e5e 0%,#25617b 0%,#185476 0%,#185476 12%,#154b6d 46%,#103d61 72%,#0c3357 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #5e5e5e 0%,#25617b 0%,#185476 0%,#185476 12%,#154b6d 46%,#103d61 72%,#0c3357 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', endColorstr='#0c3357',GradientType=0 ); /* IE6-9 */
+  border-radius: 15px;
 }
 
 .cart_1 {
@@ -247,11 +247,6 @@ h2 {
 
                                                /* MAIN */
 
-.products {
-}
-
-.menu:after {
-}
 
 .catalogue {
   padding-top: 5px;
