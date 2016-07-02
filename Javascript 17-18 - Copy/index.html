@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lighthouses</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="js/script.main.min.js"></script>
+    <!-- <script src="js/tmpl.js"></script> -->
+
+  </head>
+  <body>
+    <div class="wrapper">
+    <div class="carousel-arrow-left"><span>Left</span></div>
+
+    <div class="carousel-hider">
+     <ul class="carousel-list">
+        <li class="carousel-element"><img src="img/loggerhead-lighthouse-florida.jpg" alt="" /><p>Loggerhead Lighthouse,<br> Florida </p></li>
+        <li class="carousel-element"><img src="img/portland_maine.jpg" alt="" /><p>Portland Lighthouse,<br> Maine </p></li>
+        <li class="carousel-element"><img src="img/diamond-head-hawaii.jpg" alt="" /><p>Diamond Head Lighthouse,<br>Hawaii </p></li>
+        <li class="carousel-element"><img src="img/cape-neddick-maine.jpg" alt="" /><p>Cape Neddick Lighthouse,<br> Maine </p></li>
+        <li class="carousel-element"><img src="img/big-sable-point-lighthouse-michigan.jpg" alt="" /><p>Big Sable Point Lighthouse,<br> Michigan</p></li>
+        <li class="carousel-element"><img src="img/montauk-point-new-york.jpg" alt="" /><p>Montauk Point Lighthouse,<br> New York </p></li>
+        <li class="carousel-element"><img src="img/thomas-point.jpg" alt="" /><p>Thomas Point Shoal Light Station,<br> Maryland </p></li>
+        <li class="carousel-element"><img src="img/pigeon-point-california.jpg" alt="" /><p>Pigeon Point Lighthouse,<br> California </p></li>
+      </ul>
+    </div>
+
+     <div class="carousel-arrow-right"><span>Right</span></div>
+
+     <div class="template"></div>
+   </div>
+
+    <script type="text/template" id="info">
+      <% for (var i = 0; i < data.length; i++) { %>
+        <h1><%= data[i].title %></h1>
+        <p><%= data[i].content %></p>
+      <% }; %>
+    </script>
+
+<!-- <script src="js/script.js"></script> -->
+  </body>
+</html>
